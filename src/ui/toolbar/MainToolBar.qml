@@ -89,6 +89,14 @@ Rectangle {
             onClicked:          _activeVehicle.closeVehicle()
             visible:            _activeVehicle && _communicationLost && currentToolbar === flyViewToolbar
         }
+		
+		 QGCButton {
+            id:                 logoutButton
+            text:               qsTr("Log Out")
+            onClicked:          _activeVehicle.closeVehicle()
+            visible:            true
+            Layout.alignment:   Qt.AlignVCenter | Qt.AlignRight
+        }
     }
 
     QGCFlickable {
