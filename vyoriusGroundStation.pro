@@ -30,7 +30,7 @@ include(QGCCommon.pri)
 TARGET   = vyoriusGroundStation
 TEMPLATE = app
 QT += widgets 
-RESOURCES += D:/project/qgroundcontrol/resources.qrc
+RESOURCES += ../qgroundcontrol/resources.qrc
 QGCROOT  = $$PWD
 
 QML_IMPORT_PATH += $$PWD/src/QmlControls
